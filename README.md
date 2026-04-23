@@ -20,7 +20,7 @@
 
 本系统的核心价值在于 **"确定性算法 + LLM 智能编排"** 的融合架构。以下流程图展示了 Multi-Agent 如何协同工作，以及 LLM 在各环节发挥的关键作用：
 
-![LLM Workflow](docs/images/05-llm-workflow.png)
+![LLM Workflow](docs/images/计划员视角Multi-Agent%20智能调度%20Workflow.svg)
 
 ### LLM 的核心作用与优势
 

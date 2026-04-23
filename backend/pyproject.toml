@@ -1,0 +1,20 @@
+[project]
+name = "semiconductor-mrp-backend"
+version = "0.1.0"
+description = "Backend for semiconductor supply chain MRP demo"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "sqlalchemy",
+  "pydantic",
+  "pydantic-settings",
+  "python-multipart",
+  "openpyxl",
+  "crewai",
+  "apscheduler",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
